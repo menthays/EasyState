@@ -48,8 +48,8 @@
     "react": ">=16.8.1"
   },
   "devDependencies": {
-    "@babel/core": "7.3.4",
-    "@babel/preset-env": "7.3.4",
+    "@babel/core": "7.4.0",
+    "@babel/preset-env": "7.4.2",
     "@babel/preset-react": "7.0.0",
     "@babel/preset-typescript": "7.3.3",
     "@pika/pack": "0.3.6",
@@ -58,9 +58,9 @@
     "@pika/plugin-build-web": "0.3.14",
     "@pika/plugin-standard-pkg": "0.3.14",
     "@types/jest": "24.0.11",
-    "@types/react": "16.8.7",
+    "@types/react": "16.8.8",
     "docz": "0.13.7",
-    "docz-theme-default": "0.12.9",
+    "docz-theme-default": "0.13.7",
     "jest": "24.5.0",
     "react": "16.8.5",
     "react-dom": "16.8.5",
