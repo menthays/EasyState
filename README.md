@@ -5,12 +5,13 @@
 
 ## Install
 ```bash
-npm install easystate
+npm install @menthays/easystate
 ```
 
 ## Example
 ```javascript
 // store.js
+import EasyState from '@menthays/easystate'
 const CounterStore = EasyState({
   state: {
     count: 0
