@@ -1,6 +1,6 @@
 {
   "name": "@menthays/easystate",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "license": "MIT",
   "description": "Easy state management based on React Context and Hooks",
   "repository": {
