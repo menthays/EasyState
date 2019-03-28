@@ -1,6 +1,6 @@
 ## Latest
 #### :house: Internal
-* Balabala
+* Optimize type in src
 
 #### :bug: Bug Fix
-* It's not a bug! It's a FEATURE.
+* Wrong type assertion when declaring actions.

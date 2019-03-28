@@ -1,6 +1,13 @@
 # EasyState
 > Easy state management based on React Context and Hooks
 
+[![npm package][npm-badge]][npm]
+
+## Install
+```bash
+npm install easystate
+```
+
 ## Example
 ```javascript
 // store.js
@@ -37,3 +44,6 @@ function CounterComponent() {
 }
 
 ```
+
+[npm-badge]: https://img.shields.io/npm/v/easystate.png?style=flat-square
+[npm]: https://www.npmjs.org/package/easystate

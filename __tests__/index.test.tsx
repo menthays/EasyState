@@ -7,15 +7,15 @@ const CounterStore = EasyState({
     count: 0
   },
   actions: {
-    increment(state, {number}) {
+    increment(state, payload: {num: number}) {
       return {
-        count: state.count + number
+        count: state.count + payload.num
       }
     }
   }
 });
 
-const {Provider, getState, getDispatcher} = CounterStore;
+const {Provider, getState, getDispatch} = CounterStore;
 
 test('Counter Sample Test', () => {
   const wrapper: FunctionComponent = ({ children }) => (
@@ -25,14 +25,14 @@ test('Counter Sample Test', () => {
   const { result } = renderHook(() => (
     {
       state: getState(),
-      dispatch: getDispatcher(),
+      dispatch: getDispatch(),
     }
   ), { wrapper })
 
   const {dispatch} = result.current;
 
   act(() => {
-    dispatch({action: 'increment', number: 3});
+    dispatch({type: 'increment', num: 3});
   });
 
   const {state} = result.current;
