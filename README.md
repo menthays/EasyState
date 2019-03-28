@@ -46,5 +46,5 @@ function CounterComponent() {
 
 ```
 
-[npm-badge]: https://img.shields.io/npm/v/easystate.png?style=flat-square
-[npm]: https://www.npmjs.org/package/easystate
+[npm-badge]: https://img.shields.io/npm/v/@menthays/easystate.png?style=flat-square
+[npm]: https://www.npmjs.org/package/@menthays/easystate
