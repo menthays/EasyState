@@ -9,7 +9,6 @@
   },
   "scripts": {
     "test": "jest",
-    "tsc": "tsc --noEmit",
     "build": "pack build",
     "publish": "pack publish"
   },
